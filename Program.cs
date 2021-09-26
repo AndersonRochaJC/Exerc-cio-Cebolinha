@@ -13,8 +13,7 @@ namespace Exerc_cio_Cebolinha
             fraseDigitada = Console.ReadLine();
 
           fraseComDislalia = fraseDigitada
-          .Replace("r" , "l").Replace("R" , "L").Replace("a" ,"4")
-          .Replace("A" , "4").Replace("e" , "3").Replace("E" , "3");
+          .Replace("r" , "l").Replace("R" , "L");
           Console.BackgroundColor = ConsoleColor.Yellow;
            Console.ForegroundColor = ConsoleColor.Black;
           Console.WriteLine(fraseComDislalia);
